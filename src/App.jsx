@@ -86,8 +86,8 @@ function App() {
   };
 
   return (
-    <div className="container w-1/3 mt-20 mx-auto p-4">
-      <h1 className="text-3xl text-red-400 text-center font-bold mb-4">
+    <div className="container 2xl:px-96 lg:px-72 md:px-48  sm:px-16 w-full mt-20 mx-auto px-4">
+      <h1 className="text-lg lg:text-2xl text-red-400 text-center font-bold mb-4">
         To-Do App
       </h1>
       <div className="flex mb-4">
