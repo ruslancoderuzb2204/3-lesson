@@ -87,7 +87,7 @@ function App() {
 
   return (
     <div className="container w-1/3 mt-20 mx-auto p-4">
-      <h1 className="text-3xl text-blue-500 text-center font-bold mb-4">
+      <h1 className="text-3xl text-red-400 text-center font-bold mb-4">
         To-Do App
       </h1>
       <div className="flex mb-4">
@@ -117,8 +117,8 @@ function App() {
         {state.todos.map((todo) => (
           <li
             key={todo.id}
-            className={`flex items-center justify-between mb-4 ${
-              todo.completed ? "line-through text-gray-500" : ""
+            className={`flex items-center text-lg justify-between mb-4 ${
+              todo.completed ? "line-through text-slate-800" : ""
             }`}
           >
             <div className="flex items-center">
